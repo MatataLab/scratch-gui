@@ -2,7 +2,7 @@
   "_args": [
     [
       "scratch-blocks@0.1.0-prerelease.20200617163252",
-      "E:\\project\\scratch-gui"
+      "E:\\scratch\\publish\\scratch-gui"
     ]
   ],
   "_development": true,
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/scratch-blocks/-/scratch-blocks-0.1.0-prerelease.20200617163252.tgz",
   "_spec": "0.1.0-prerelease.20200617163252",
-  "_where": "E:\\project\\scratch-gui",
+  "_where": "E:\\scratch\\publish\\scratch-gui",
   "author": {
     "name": "Massachusetts Institute of Technology"
   },
