@@ -1,5 +1,4 @@
 /* eslint-disable import/no-commonjs */
-import {localesInitialState} from '../../../../../reducers/locales';
 require('./iconfont.js');
 
 const css = require('raw-loader!./facepanel.txt');
@@ -19,7 +18,7 @@ if (!(fpStyle instanceof Element)) {
 const templateHTML = require('raw-loader!./template.html');
 
 const formatMessageId = function (id) {
-    const result = localesInitialState.messages[id];
+    const result = window.matataStore.getState().locales.messages[id];
     return result;
 };
 
