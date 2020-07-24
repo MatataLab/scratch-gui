@@ -1208,10 +1208,7 @@ var Editor = /*#__PURE__*/function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatMessage", function() { return formatMessage; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templateHTML", function() { return templateHTML; });
-/* harmony import */ var _reducers_locales__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../reducers/locales */ "./src/reducers/locales.js");
 /* eslint-disable import/no-commonjs */
-
-
 __webpack_require__(/*! ./iconfont.js */ "./src/lib/scratch-extends/scratch-blocks/field-face/sources/iconfont.js");
 
 var css = __webpack_require__(/*! raw-loader!./facepanel.txt */ "./node_modules/raw-loader/index.js!./src/lib/scratch-extends/scratch-blocks/field-face/sources/facepanel.txt");
@@ -1233,7 +1230,7 @@ if (!(fpStyle instanceof Element)) {
 var templateHTML = __webpack_require__(/*! raw-loader!./template.html */ "./node_modules/raw-loader/index.js!./src/lib/scratch-extends/scratch-blocks/field-face/sources/template.html");
 
 var formatMessageId = function formatMessageId(id) {
-  var result = _reducers_locales__WEBPACK_IMPORTED_MODULE_0__["localesInitialState"].messages[id];
+  var result = window.matataStore.getState().locales.messages[id];
   return result;
 };
 
