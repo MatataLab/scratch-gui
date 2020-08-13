@@ -1,7 +1,7 @@
 {
     "mata_home_link": "https://matatalab.com",
     "mata_learning_center": "https://matatalab.com/education",
-    "matatbot_help_link": "https://github.com/YanMinge/scratch-doc/blob/master/matatabot_scratch_link_installation.md",
-    "matatcon_help_link": "https://github.com/YanMinge/scratch-doc/blob/master/matatacon_scratch_link_installation.md",
-    "mata_device_update_link": "https://github.com/YanMinge/scratch-doc/blob/master/firmware_update.md"
+    "matatbot_help_link": "https://www.matatalab.com/matatabot-scratch-link-installation",
+    "matatcon_help_link": "https://www.matatalab.com/matatacon-scratch-link-installation",
+    "mata_device_update_link": "https://www.matatalab.com/product-support#download"
 }

@@ -13,12 +13,12 @@ const messages = defineMessages({
         id: 'gui.matata.firmwareUpdate'
     },
     firmwareUpdatePreLable: {
-        defaultMessage: 'The version get from current hardware: ',
+        defaultMessage: 'The current device firmware version: ',
         description: '',
         id: 'gui.matata.firmwareUpdatePreLable'
     },
     firmwareUpdatePostLable: {
-        defaultMessage: 'The firmware version does not match the version supported by the extension, needs to be upgraded',
+        defaultMessage: 'The firmware version does not match the version supported by the extension. Please upgrade the firmware.',
         description: '',
         id: 'gui.matata.firmwareUpdatePostLable'
     },
@@ -28,12 +28,12 @@ const messages = defineMessages({
         id: 'gui.matata.firmwareUpdateButtonText'
     },
     sensorModeMismatch: {
-        defaultMessage: 'The matatacon is not in sensor mode, please change the mode to sensor mode',
+        defaultMessage: 'The MatataCon is not in sensor mode, please switch the mode and try again.',
         description: '',
         id: 'gui.matata.sensorModeMismatch'
     },
     carNeedUpdateFirmware: {
-        defaultMessage: 'A matatabot is connected to the matatacon and the matatabot firmware needs to be upgraded',
+        defaultMessage: 'Please upgrade the MatataBot which is connected to this MatataCon.',
         description: '',
         id: 'gui.matata.carNeedUpdateFirmware'
     }
